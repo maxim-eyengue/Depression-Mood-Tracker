@@ -225,6 +225,6 @@ This project is licensed under the [MIT License](LICENSE.txt).
 
 ---
 
-[Help Illustration](images/depression_hands.jpg)
+![Help Illustration](/images/depression_hands.jpg)
 
 Let us help you 💕
