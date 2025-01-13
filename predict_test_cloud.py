@@ -4,7 +4,7 @@
 import requests
 
 # Environment domain address furnished by Elastic Beanstalk
-host = 'depression-mood-tracker-app-env.eba-52pgepia.us-east-1.elasticbeanstalk.com/'
+host = 'depression-mood-tracker-app-env.eba-52pgepia.us-east-1.elasticbeanstalk.com'
 # url address for making predictions
 url = f"http://{host}/predict"
 # New patient information
