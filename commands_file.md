@@ -74,32 +74,32 @@ docker images
 docker run -it --rm -p 9696:9696 depression-mood-tracker
 ```
 
+
 ## For AWS Elastic Beanstalk deployment
 ### To install AWS Elastic Beanstalk in our environment as a development dependency:
 ```bash
 pipenv install awsebcli --dev
 ```
 
-### Alert: For the following commands, first activate the environment  with `pipenv shell`.
-
-### To initialize the application with AWS Elastic Beanstalk using a Docker image:
+### Alert: For the following commands, first activate the environment with `pipenv shell`.
+#### To initialize the application with AWS Elastic Beanstalk using a Docker image:
 ```bash
 eb init -p "Docker running on 64bit Amazon Linux 2" depression-mood-tracker -r us-east-1 
 ```
 
-### To deploy the application locally:
+#### To deploy the application locally:
 ```bash
 eb local run --port 9696
 ```
 
-### To deploy the application to the cloud:
+#### To deploy the application to the cloud:
 ```bash
-eb create depression-mood-tracker-env
+eb create depression-mood-tracker-app-env --enable-spot
 ```
 
-### To terminate the Elastic Beanstalk environment:
+#### To terminate the Elastic Beanstalk environment:
 ```bash
-eb terminate depression-mood-tracker-env
+eb terminate depression-mood-tracker-app-env
 ```
 
 
