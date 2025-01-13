@@ -1,6 +1,6 @@
 branch-defaults:
   main:
-    environment: null
+    environment: depression-mood-tracker-app-env
     group_suffix: null
 global:
   application_name: depression-mood-tracker

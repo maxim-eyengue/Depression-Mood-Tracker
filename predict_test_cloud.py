@@ -3,10 +3,10 @@
 # import necessary library
 import requests
 
-# host and url address for making predictions
-host = "add the address provided by Elastic Beanstalk"
-url = f'http://{host}/predict'
-
+# Environment domain address furnished by Elastic Beanstalk
+host = 'depression-mood-tracker-app-env.eba-52pgepia.us-east-1.elasticbeanstalk.com/'
+# url address for making predictions
+url = f"http://{host}/predict"
 # New patient information
 patient = {'age': 24,
            'marital_status': 'single',
