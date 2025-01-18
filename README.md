@@ -283,7 +283,7 @@ eb create depression-mood-tracker-app-env --enable-spot
 ```
 ![Elastic Beanstalk Cloud Deployment](images/deploy_eb_cloud.png)
 
-The application has been deployed to the cloud with the [Elastic Beanstalk host](depression-mood-tracker-app-env.eba-52pgepia.us-east-1.elasticbeanstalk.com). To test this cloud deployment, we sent a request to the [service URL address](http://depression-mood-tracker-app-env.eba-52pgepia.us-east-1.elasticbeanstalk.com/predict):
+The application has been deployed to the cloud with an [Elastic Beanstalk host](depression-mood-tracker-app-env.eba-52pgepia.us-east-1.elasticbeanstalk.com). To test this cloud deployment, we sent a request to the [service URL address](http://depression-mood-tracker-app-env.eba-52pgepia.us-east-1.elasticbeanstalk.com/predict):
 ```bash
 python predict_test_cloud.py
 ```
