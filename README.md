@@ -332,7 +332,7 @@ Contributions are welcome! To contribute:
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE.txt).
+This project is licensed under the [MIT License](LICENSE.txt). Make sure to add this [license](LICENSE.txt) in any of your copy, specifying me as the right owner of the work.
 
 ---
 
